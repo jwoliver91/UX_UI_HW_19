@@ -1,0 +1,113 @@
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+nav {
+    width: 98%;
+    padding: 1%;
+    background-image: linear-gradient(grey, white);
+}
+.nav{
+    width: 100%;
+    margin-left: 55%;
+}
+.footerNav{
+    width: 100%;
+    margin-left: 55%;  
+}
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 52px;
+    text-transform: uppercase;
+}
+h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    max-width:100%;
+}
+h3{
+    font-family:'Nunito', sans-serif;
+    font-size: 45px;
+}
+p{
+    font-family: 'Lato', sans-serif;
+
+}
+li{
+    font-family: 'Nunito', sans-serif;
+    font-size: 24;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+#Hero{
+    max-width:100%;
+    display: flex;
+}
+#images{
+    justify-content: flex-end;
+}
+#content{
+    max-width: 100%;
+    justify-content: flex-start;
+}
+    
+.content{
+    flex-direction: row;
+    width:80%;
+    align-items: center;
+    margin: 0 auto;
+}
+.about-me{
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 20%;
+
+}
+.process{
+    margin:auto;
+    text-align: center;
+}
+.processImg{
+    width: 80%;
+}
+.blueBlob{
+    margin-left: -5%;
+}
+.Skills{
+    max-width: 100%;
+}
+.mySkills{
+    margin-right: 1.90%;
+}
+.toolList{
+    margin-left: 7%;
+}
+.pinkBlob{
+    margin-left: 75%;
+}
+.rectangle2{
+    margin-left: 80%;
+}
+.rectangle4{
+    margin-left:-220%;
+}
+.CollaboTravel{
+    display:flex;
+}
+footer{
+    width: 100%;
+    background-image: linear-gradient(white, grey);
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    margin: auto;
+}
+li{ 
+    padding: 25px;
+}
+@media only screen and (max-width: 600){
+    flex-direction: column;
+    max-width: 100%;
+  
+}
